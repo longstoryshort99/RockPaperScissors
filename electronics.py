@@ -68,6 +68,7 @@ def game(user_input, computer_input):
         lose()
 
 def main():
+    print("you're gonna lose")
     user_input = get_input()
     computer_input= comp_input()
     game(user_input, computer_input)
